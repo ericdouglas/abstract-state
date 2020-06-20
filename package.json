@@ -1,0 +1,59 @@
+{
+  "name": "abstract-state",
+  "version": "0.0.1",
+  "description": "Ultimate DX for state management in React applications",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "scripts": {
+    "test": "jest",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "immer": "^7.0.3",
+    "onli-reducer": "^0.3.0",
+    "react": "^16.13.1",
+    "use-immer": "^0.4.0",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "microbundle": "^0.12.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "peerDependencies": {
+    "immer": "^7.0.3",
+    "onli-reducer": "^0.3.0",
+    "react": "^16.13.1",
+    "use-immer": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericdouglas/abstract-state.git"
+  },
+  "keywords": [
+    "abstract-state",
+    "abstract",
+    "state",
+    "management",
+    "react",
+    "immer",
+    "usereducer",
+    "onli-reducer"
+  ],
+  "author": "Eric Douglas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericdouglas/abstract-state/issues"
+  },
+  "homepage": "https://github.com/ericdouglas/abstract-state#readme",
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ]
+}
