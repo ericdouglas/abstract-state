@@ -9,7 +9,7 @@ import ProviderFactory from './provider-factory'
  * @param {Object} actions
  * @param {*} initialState
  * @param {string} moduleName
- * @returns {{ReactNode, () => void, () => void}} returns a Provider and two custom hooks
+ * @returns {{ ReactNode, () => any, () => any }} returns a Provider and two custom hooks
  * Name of custom hooks will be based on the `moduleName` passed to the abstract function
  */
 const abstract = (actions, initialState, moduleName) => {
