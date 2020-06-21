@@ -1,3 +1,6 @@
+// import React from 'react'
+// import { renderHook } from '@testing-library/react-hooks'
+
 import abstract from './abstract'
 
 const increment = (state, value) => state + value
@@ -23,4 +26,17 @@ describe('abstract', () => {
     expect(useTestState).toBeTruthy()
     expect(typeof useTestState).toBe('function')
   })
+
+  // it('should return the current state when using the custom hook', () => {
+  //   const { Provider, useTestState } = abstract(
+  //     actions,
+  //     initialState,
+  //     moduleName,
+  //   )
+  //   const wrapper = ({ children }) => <Provider>{children}</Provider>
+  //   const { result } = renderHook(() => useTestState(), { wrapper })
+  //   console.log('result.current :::', result.current)
+
+  //   expect(result.current).toBe(0)
+  // })
 })
