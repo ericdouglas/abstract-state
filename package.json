@@ -1,6 +1,6 @@
 {
   "name": "abstract-state",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ultimate DX for state management in React applications",
   "source": "src/index.js",
   "main": "dist/index.js",
