@@ -14,17 +14,18 @@
     "dist"
   ],
   "devDependencies": {
-    "immer": "^7.0.3",
-    "onli-reducer": "^0.3.0",
-    "react": "^16.13.1",
-    "use-immer": "^0.4.0",
     "@babel/core": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.1",
     "babel-jest": "^26.0.1",
+    "git-commit-msg-linter": "^2.4.4",
+    "immer": "^7.0.3",
     "jest": "^26.0.1",
     "microbundle": "^0.12.1",
-    "react-test-renderer": "^16.13.1"
+    "onli-reducer": "^0.3.0",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "use-immer": "^0.4.0"
   },
   "peerDependencies": {
     "immer": "^7.0.3",
@@ -51,9 +52,5 @@
   "bugs": {
     "url": "https://github.com/ericdouglas/abstract-state/issues"
   },
-  "homepage": "https://github.com/ericdouglas/abstract-state#readme",
-  "moduleDirectories": [
-    "node_modules",
-    "src"
-  ]
+  "homepage": "https://github.com/ericdouglas/abstract-state#readme"
 }
