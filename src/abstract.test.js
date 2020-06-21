@@ -16,7 +16,11 @@ describe('abstract', () => {
     )
 
     expect(Provider).toBeTruthy()
+
     expect(useTestActions).toBeTruthy()
+    expect(typeof useTestActions).toBe('function')
+
     expect(useTestState).toBeTruthy()
+    expect(typeof useTestState).toBe('function')
   })
 })
