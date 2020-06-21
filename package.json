@@ -6,7 +6,8 @@
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
+    "test:dev": "jest",
     "build": "microbundle",
     "dev": "microbundle watch"
   },
